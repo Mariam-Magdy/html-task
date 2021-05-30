@@ -1,0 +1,194 @@
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    text-align: center;
+    font-family: 'lobster two',cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10%;
+}
+
+header img {
+    height: 30px;
+}
+
+nav {
+    width: 100%;
+    padding: 0px;
+    background-color: white; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px ;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: large;
+    color: gray;
+}
+
+a:hover {
+    color: black;
+    text-shadow: 2px 2px 3px white;
+}
+
+.etisLogo {
+    background-image: url("../assets/etisLogo.png");
+}
+
+.bg-img{
+    text-align: center;
+    height: 70%;
+    width: 100%;
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.bg-color{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 54, 54, 0.6);
+}
+
+h1, h2, h3, h5{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+h5 {
+    margin: 0 0 30px 0;
+}
+
+.dataBundle {
+    height: 15vw;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+.btn1, .btn2 {
+    padding: 5px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    font-size: medium;
+    border: 0;
+    width: 30ch;
+}
+
+.btn1 {
+    color: rgb(58, 117, 134);
+    background-color: rgb(207, 230, 236);
+}
+
+.btn2 {
+    color: rgb(207, 230, 236);
+    background-color: rgb(58, 117, 134);
+}
+
+.secondHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.one {
+    text-align: center;
+    color: white;
+    background-color: rgb(58, 117, 134);
+    width: 50%;
+    padding: 10px;
+}
+
+.two {
+    text-align: center;
+    color: rgb(58, 117, 134);
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    border-color: rgb(58, 117, 134);
+    border: 5px;
+}
+
+.leftText {
+    text-align: left;
+    margin: 10px;
+}
+
+span {
+    border-radius: 50%;
+    border: 5px solid gray;
+    background-color: rgb(207, 230, 236);
+    width: 10%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+}
+
+.priceBtn, .dataBtn, .voice {
+    background-color: rgb(58, 117, 134);
+    border-radius: 5px;
+    border: 0;
+    width: 15%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.priceBtn {
+    display: block;
+}
+
+.thirdBg-img {
+    background-image: url("../assets/background2.jpg");
+    height: 50%;
+}
+
+.thirdBg-color {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 54, 54, 0.6);
+    float: left;
+}
+
+.data, .sixPart {
+    background-color: rgb(204, 204, 204)
+}
+
+.fifthPart-img {
+    background-image: url("../assets/background3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.fifthPart-color {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 54, 54, 0.6);
+}
