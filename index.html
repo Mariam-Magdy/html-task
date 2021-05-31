@@ -7,6 +7,8 @@
     <title>Dmagh Tanya</title>
     
     <link rel="shortcut icon" href="assets/etisLogo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -20,7 +22,9 @@
             </ul>
         </nav>
         <input type="search" name="gsearch" placeholder="Search">
+        <i class="fas fa-shopping-cart"></i>
     </header>
+    <!-- second slide -->
     <div class="bg-img">
         <div  class="bg-color">
             <img src="assets/dmaghTanyaLogo.png" alt="dmaghTanyaLogo">
@@ -39,43 +43,78 @@
             <div class="two">Main Packages</div>
         </div>
         <p class="leftText">Pick your voice and internet plans</p>
+        <div>
         <p>Choose your bundle</p>
-        <button>
-            <div>30Days</div>
-            <div>90Days</div>
-        </button>
+        <!-- Rounded switch -->
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round">30Days</span>
+        </label>
         <div class="dataBundle">
-            <p>Data Bundle</p>
-            <span>1 GB</span>
-            <span>1 GB</span>
-            <span>1 GB</span>
+            <div style="text-align: left;padding-left: 36%;">
+                <p>Data Bundle</p>
+            </div>
+            <span class="firstSpan">
+                <div style="padding-top: 25%;">1 GB</div>
+            </span>
+            <span class="firstSpan">
+                <div style="padding-top: 25%;">1 GB</div>
+            </span>
+            <span class="firstSpan">
+                <div style="padding-top: 25%;">1 GB</div>
+            </span>
         </div>
+        <br>
+        <div style="text-align: left;padding-left: 36%;">
             <p>Voice Bundle</p>
-            <span>200 Min</span>
-            <span>200 Min</span>
-            <span>200 Min</span>
-        <button class="priceBtn">Check Price</button>
+        </div>
+        <span class="firstSpan">
+            <div style="padding-top: 25%;">200 Min</div>
+        </span>
+        <span class="firstSpan">
+            <div style="padding-top: 25%;">200 Min</div>
+        </span>
+        <span class="firstSpan">
+            <div style="padding-top: 25%;">200 Min</div>
+        </span>
+        <div style="margin-top: 5%;">
+            <div style="text-align: left;padding-left: 37%;">
+                <a class="fa fa-facebook"></a>
+                <a class="fa fa-whatsapp"></a>
+                <a class="fa fa-instagram"></a>
+                <a class="fa fa-twitter"></a>
+                <a class="fa fa-snapchat-ghost"></a>
+                <a class="fa fa-skype"></a>
+                <p style="display: inline;">Unliited Usage</p>
+            </div>
+            <button class="priceBtn" style="margin-bottom: 6%;">Check Price</button>
+        </div>
     </div>
     <div class="thirdBg-img">
         <div class="thirdBg-color">
             <h2 class="leftText">Know the Features</h2>
-            <div>
-                <span></span>
-                <p>Title</p>
+            <div class="spans">
+                <span>
+                    <span class="nextSpan" style="float: left;margin-left: 6%;">
+                        <p style="color: white;margin-top:80%">Title</p>
+                    </span>
+                    <span class="nextSpan" style="float: left;margin: 0 6%;">
+                        <p style="color: white;margin-top:80%">Title</p>
+                    </span>
+                </span>
+                <span>
+                    <span class="nextSpan" style="float: left;margin: 0 6%;">
+                        <p style="color: white;margin-top:80%">Title</p>
+                    </span>
+                    <span class="nextSpan" style="float: left;margin: 0 5%;">
+                        <p style="color: white;margin-top:80%">Title</p>
+                    </span>
+                </span>
+                <span>
+                    <span class="nextSpan" style="margin-left: -11%;"></span>
+                </span>
             </div>
-            <div>
-                <span></span>
-                <p>Title</p>
-            </div>
-            <div>
-                <span></span>
-                <p>Title</p>
-            </div>
-            <div>
-                <span></span>
-                <p>Title</p>
-            </div>
-        </div>
+    </div>
     </div>
     <div class="fourthPart">
         <p class="leftText">Explore possible Add ons</p>
@@ -113,5 +152,6 @@
     </div>
     <footer>
     </footer>
+    <script src="js/all.js"></script>
 </body>
 </html>
