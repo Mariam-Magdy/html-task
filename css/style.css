@@ -219,8 +219,8 @@ h5 {
     color: white;
     border-radius: 5px;
     border: 0;
-    width: 15%;
-    padding: 10px;
+    width: 10%;
+    padding: 12px;
     margin: 10px;
 }
 
@@ -246,16 +246,18 @@ h5 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-bottom: 6%;
+    margin-bottom: 2%;
 }
 
 .thirdBg-color {
+    padding-bottom: 1%;
     width: 100%;
     height: 100%;
     background-color: rgba(56, 54, 54, 0.6);
 }
 
 .data, .sixPart {
+    clear: both;
     background-color: rgb(204, 204, 204)
 }
 
@@ -264,10 +266,11 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50%;
+    height: 55%;
 }
 
 .fifthPart-color {
+    padding-bottom: 2%;
     width: 100%;
     height: 100%;
     background-color: rgba(56, 54, 54, 0.6);
@@ -324,3 +327,34 @@ h5 {
     background: #00aff0;
     color: white;
   }
+
+  button {
+      cursor: pointer;
+  }
+
+  .conditionUl {
+    float: left;
+    color: white;
+  }
+
+  .footer {
+      margin-top: 2%;
+      padding-top: 2%;
+      background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .p-responsive {
+        margin-top: 140%;
+    }
+
+    .firstSpan {
+        width: 11%;
+        margin: 9%;
+    }
+}
